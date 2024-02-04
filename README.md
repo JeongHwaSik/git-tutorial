@@ -35,3 +35,18 @@ git log
 git commit -help
 ```
 
+### move your HEAD to the past history; just see the past commit code
+```
+git checkout commitID
+git checkout main
+```
+
+### reset your HEAD
+```
+git reset --hard HEAD^
+git reset --hard HEAD^^
+```
+> after hard delete, forcing push to the origin
+```
+git push origin main --force
+```
