@@ -6,7 +6,7 @@
 git clone URL
 
 ### 2. Add your file from Working Area to Stage Area
-git add filenmae
+git add filenmae\n
 git add .
 
 ### 3. Commit
